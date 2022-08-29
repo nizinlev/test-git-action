@@ -1,0 +1,21 @@
+{
+  "name": "test-git-action",
+  "version": "1.0.0",
+  "description": "action git to lambda",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nizinlev/test-git-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nizinlev/test-git-action/issues"
+  },
+  "homepage": "https://github.com/nizinlev/test-git-action#readme"
+}
