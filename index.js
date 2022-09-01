@@ -5,7 +5,7 @@ exports.handler = async (event) => {
     let randNumb=Math.floor(Math.random()*max)+min;
     const response = {
         statusCode: 200,
-        body: JSON.stringify(`i refresh my site ${randNumb} times`),
+        body: JSON.stringify(`i refresh my site ${randNumb} of times`),
     };
     return response;
 };
